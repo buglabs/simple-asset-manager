@@ -1,0 +1,16 @@
+{
+    "name": "simple-asset-manager",
+    "description": "Simple and generic web asset manager, merges and minimizes javascript files.",
+    "version": "0.0.6",
+    "author": "BugLabs Inc",
+    "keywords" : [ "asset", "manager", "simple", "web", "css", "javascript", "connect", "express"],
+    "repository": "git://github.com/buglabs/simple-asset-manager",
+    "engines": {
+        "node": "0.4.x || 0.6.x"
+    },
+
+    "dependencies": {
+        "uglify-js": "1.2.5"
+    },
+    "main": "manager"
+}
