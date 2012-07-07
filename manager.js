@@ -4,7 +4,7 @@ var path = require('path');
 
 //Utility functions
 function copy(src, dst) {
-    if (!path.existsSync(src)) {
+    if (!fs.existsSync(src)) {
         throw new Error(src + ' does not exists. Nothing to be copied');
     }
 
